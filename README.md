@@ -8,4 +8,3 @@ Welcome to my 49-Day DSA journey! Over the next 49 days, I’ll be sharing my pr
 ### Day 1
 **Problems Solved:**  
 1. **3Sum** - Implemented an algorithm to find all unique triplets in an array that sum up to zero.
-2. **Sort Colors** - Used a Dutch National Flag algorithm to sort an array of colors represented as integers (0, 1, 2) in a single pass.
