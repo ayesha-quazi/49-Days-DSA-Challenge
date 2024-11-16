@@ -7,4 +7,4 @@ Welcome to my 49-Day DSA journey! Over the next 49 days, I’ll be sharing my pr
 
 ### Day 1
 **Problems Solved:**  
-1. **3Sum** - Implemented an algorithm to find all unique triplets in an array that sum up to zero.
+1. **3Sum** - Used a sorted array with a two-pointer approach to efficiently find unique triplets summing to zero, while skipping duplicates and handling edge cases.
