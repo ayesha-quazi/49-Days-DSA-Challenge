@@ -18,5 +18,7 @@ Welcome to my 49-Day DSA journey! Over the next 49 days, I’ll be sharing my pr
 ### Day 2
 **Problems Solved:**  
 
-2. 
+2. **Sort Colors** -
+
+3. **Next Permutation** - 
 
