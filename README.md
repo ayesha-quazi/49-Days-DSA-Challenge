@@ -19,11 +19,14 @@ Welcome to my 49-Day DSA journey! Over the next 49 days, I’ll be sharing my pr
 
 3. **Next Permutation** - Unlocked the logic to find the next lexicographical permutation. The trick? Identify the pivot, swap strategically, and reverse the suffix.
 
+<hr>
+
 ### Day 3
 
 4. **Product of Array Except Self**- Efficiently computed products without division using left and right prefix products.
 
 5. **Increment Submatrices by One** - Optimized range updates in a 2D grid with prefix sums to handle overlapping increments.
- 
+
+<hr>
 
 
