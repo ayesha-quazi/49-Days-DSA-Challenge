@@ -10,15 +10,20 @@ Welcome to my 49-Day DSA journey! Over the next 49 days, I’ll be sharing my pr
 <hr>
 
 ### Day 1
-**Problem Solved:**  
 1. **3Sum** - Used a sorted array with a two-pointer approach to efficiently find unique triplets summing to zero, while skipping duplicates and handling edge cases.
 
 <hr> 
 
 ### Day 2
-**Problems Solved:**  
-
 2. **Sort Colors** - Applied a counting sort approach to efficiently sort an array with elements 0, 1, and 2. Key takeaway: prioritize simplicity for fixed-range problems.
 
-3. **Next Permutation** - Unlocked the logic to find the next lexicographical permutation. The trick? Identify the pivot, swap strategically, and reverse the suffix. 
+3. **Next Permutation** - Unlocked the logic to find the next lexicographical permutation. The trick? Identify the pivot, swap strategically, and reverse the suffix.
+
+### Day 3
+
+4. **Product of Array Except Self**- Efficiently computed products without division using left and right prefix products.
+
+5. **Increment Submatrices by One** - Optimized range updates in a 2D grid with prefix sums to handle overlapping increments.
+ 
+
 
