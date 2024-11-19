@@ -29,4 +29,12 @@ Welcome to my 49-Day DSA journey! Over the next 49 days, I’ll be sharing my pr
 
 <hr>
 
+### Day 4
+
+6. **First Missing Positive** - Solved in linear time using in-place bucket sorting to handle the smallest missing positive integer.
+
+7. **Count of Smaller Numbers After Self** - Leveraged binary indexed trees (BIT) or merge sort for an efficient count of smaller elements.
+
+<hr>
+
 
