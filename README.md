@@ -37,4 +37,11 @@ Welcome to my 49-Day DSA journey! Over the next 49 days, I’ll be sharing my pr
 
 <hr>
 
+### Day 5
+
+8. Rotate Image: Here I've used matrix transposition and reversal to rotate a 2D array in place efficiently.
+
+9. Spiral Matrix: And here used traverse a matrix layer by layer using controlled boundary variables.
+
+<hr> 
 
