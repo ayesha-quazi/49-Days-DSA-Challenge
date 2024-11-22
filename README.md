@@ -45,3 +45,9 @@ Welcome to my 49-Day DSA journey! Over the next 49 days, I’ll be sharing my pr
 
 <hr> 
 
+### Day 6
+
+10. Majority Element: Implemented the Boyer-Moore Voting Algorithm to efficiently find the majority element in linear time and constant space.
+
+11. Subarray Sum Equals K: Used a prefix sum with a hashmap to count subarrays that sum up to a target value in O(n) time.
+
