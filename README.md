@@ -51,3 +51,12 @@ Welcome to my 49-Day DSA journey! Over the next 49 days, I’ll be sharing my pr
 
 11. Subarray Sum Equals K: Used a prefix sum with a hashmap to count subarrays that sum up to a target value in O(n) time.
 
+<hr> 
+
+### Day 7
+
+12. Reverse Linked List: Used iteration to reverse a linked list in-place, showcasing the importance of pointer manipulation in linked data structures.
+
+13. Sort List: Applied merge sort on a linked list for efficient sorting with O(n log n) time complexity while managing space constraints.
+
+<hr> 
