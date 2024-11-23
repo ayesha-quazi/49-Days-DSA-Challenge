@@ -60,3 +60,14 @@ Welcome to my 49-Day DSA journey! Over the next 49 days, I’ll be sharing my pr
 13. Sort List: Applied merge sort on a linked list for efficient sorting with O(n log n) time complexity while managing space constraints.
 
 <hr> 
+
+### Day 8
+
+14. Linked List Cycle II: Today implemented Floyd's Cycle Detection Algorithm to detect a cycle in the list. The approach uses two pointers, slow and fast, to determine the meeting point if a cycle exists. After detection, another pointer entry starts at the head to locate the cycle’s starting node by moving one step at a time\ along with slow.
+TC: O(n)
+SC: O(1)
+
+15. Copy List with Random Pointer: Solved this question by first creating a new node for each original node using a hash map for O(n) space, then mapped the random pointers by referencing the hash map. This ensured that both the structure and random connections were accurately duplicated.
+TC n SC: O(n)
+
+<hr>
