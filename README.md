@@ -71,3 +71,9 @@ SC: O(1)
 TC n SC: O(n)
 
 <hr>
+
+### Day 9 
+
+16. My Calendar II: Solved using a sweep line algorithm with a map to manage start and end times of bookings. The key insight was maintaining a running count of active bookings and ensuring no point exceeds two simultaneous bookings.
+
+17. Subarray Product Less Than K: Utilized a sliding window technique to count subarrays with a product less than k. Adjusted the window size dynamically by shrinking it when the product exceeded the threshold, ensuring efficiency.
