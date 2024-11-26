@@ -77,3 +77,13 @@ TC n SC: O(n)
 16. My Calendar II: Solved using a sweep line algorithm with a map to manage start and end times of bookings. The key insight was maintaining a running count of active bookings and ensuring no point exceeds two simultaneous bookings.
 
 17. Subarray Product Less Than K: Utilized a sliding window technique to count subarrays with a product less than k. Adjusted the window size dynamically by shrinking it when the product exceeded the threshold, ensuring efficiency.
+
+<hr>
+
+### Day 10
+
+18. Frequency of the Most Frequent Element: Applied a sliding window on a sorted array to maximize the frequency of an element within a window, adjusting when the cost exceeds k.
+T.C: O(n log n) | S.C: O(1).
+
+19. Subarrays with K Different Integers: Used sliding window with hash maps to count subarrays with exactly k distinct integers by finding the difference between subarrays with at most k and k-1.
+T.C: O(n) | S.C: O(n).
