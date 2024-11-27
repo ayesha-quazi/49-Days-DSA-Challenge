@@ -87,3 +87,16 @@ T.C: O(n log n) | S.C: O(1).
 
 19. Subarrays with K Different Integers: Used sliding window with hash maps to count subarrays with exactly k distinct integers by finding the difference between subarrays with at most k and k-1.
 T.C: O(n) | S.C: O(n).
+
+<hr>
+
+### Day 11
+
+20. Merge k Sorted Lists: Solved using Divide & Conquer to merge pairs of lists recursively. Merged two lists using recursion based on their head node values. T.C: O(N log k) | S.C: O(log k) (recursive stack).
+
+21. LRU Cache: Used a doubly linked list to maintain order of usage and a map to store values and positions. Keys are added to the front on access or insertion.
+Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O(1) for get() and put() | S.C: O(n).
+
+22. LFU Cache: Organized keys by frequency using a map of lists and maintained their positions with an auxiliary unordered map. On access or insertion, moved items to higher frequency groups. Evicted the least frequently used item when full, prioritizing older items. T.C: O(1) for get() and O(log f) for put() | S.C: O(n).
+
+<hr>
