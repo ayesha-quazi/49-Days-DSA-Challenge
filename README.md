@@ -100,3 +100,13 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 22. LFU Cache: Organized keys by frequency using a map of lists and maintained their positions with an auxiliary unordered map. On access or insertion, moved items to higher frequency groups. Evicted the least frequently used item when full, prioritizing older items. T.C: O(1) for get() and O(log f) for put() | S.C: O(n).
 
 <hr>
+
+### Day 12
+
+23. Longest Valid Parentheses: Used a stack to track indices and validate parentheses sequences. Push -1 initially to handle boundary cases. For each ), pop the stack and calculate the valid sequence length if the stack isn’t empty. Otherwise, reset with the current index.
+
+24. Insert Interval: Calculated the minimum for every subarray and sum them up.
+
+25. Sum of Subarray Minimums: raverse the list to find the correct position for insertion. Merge overlapping intervals by updating the start and end points of the newInterval. Insert the non-overlapping intervals in place.
+
+<hr>
