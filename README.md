@@ -110,3 +110,11 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 25. Sum of Subarray Minimums: raverse the list to find the correct position for insertion. Merge overlapping intervals by updating the start and end points of the newInterval. Insert the non-overlapping intervals in place.
 
 <hr>
+
+### Day 13 
+
+26. Search a 2D Matrix: Treated the 2D matrix as a 1D array and used Binary Search to locate the target by calculating the row and column based on the midpoint.
+
+27. Search in Rotated Sorted Array II: Got the pivot (smallest element) in the rotated array, then applied Binary Search on both parts of the array to find the target, handling duplicates during the process.
+
+<hr>
