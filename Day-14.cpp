@@ -43,7 +43,9 @@ public:
 // ***************************************************************
 
 
-// 2. class Solution {
+// 2. Largest Rectangle in Histogram
+
+class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
         int n = heights.size();
