@@ -118,3 +118,11 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 27. Search in Rotated Sorted Array II: Got the pivot (smallest element) in the rotated array, then applied Binary Search on both parts of the array to find the target, handling duplicates during the process.
 
 <hr>
+
+### Day 14
+
+28. Trapping Rain Water: Calculated trapped water using precomputed arrays for maximum heights to the left and right. For each bar, the trapped water = min(leftMax, rightMax) - height.
+
+29. Largest Rectangle in Histogram: Used stacks to find nearest smaller bars on the left and right for each bar. Calculated the rectangle area for each bar and tracked the maximum.
+
+<hr> 
