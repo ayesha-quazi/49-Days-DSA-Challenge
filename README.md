@@ -126,3 +126,7 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 29. Largest Rectangle in Histogram: Used stacks to find nearest smaller bars on the left and right for each bar. Calculated the rectangle area for each bar and tracked the maximum.
 
 <hr> 
+
+30. Koko Eating Bananas: Used Binary Search to find the minimum eating speed that allows Koko to eat all bananas within h hours. Checked feasibility for each speed by simulating the total hours required.
+
+31. Median of Two Sorted Arrays: Merged two sorted arrays into one sorted array and calculated the median. Handled odd and even combined lengths for precise median calculation.
