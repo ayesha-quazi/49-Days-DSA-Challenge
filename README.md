@@ -142,3 +142,13 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 33. Gray Code: Generated Gray codes using recursion, where each Gray code is derived from the previous one with a bit-flip. Converted binary string results into integers.
 
 34. Kth Smallest Number in Multiplication Table: Used Binary Search on the value range to find the k-th smallest number in the multiplication table. Counted how many numbers are less than or equal to the current mid value to adjust the search range.
+
+<hr>
+
+### Day 17
+
+35. Find Longest Awesome Substring: Used a bitmask to track the odd/even counts of digits and their positions in the string. Checked for palindromic conditions by toggling bits (single odd digit allowed).
+
+36. Shortest Subarray with Sum at Least K: Maintained a monotonic deque to track prefix sums and their indices. Removed unnecessary prefix sums to ensure the subarray sum satisfies >= k.
+
+<hr>
