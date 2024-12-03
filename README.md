@@ -152,3 +152,11 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 36. Shortest Subarray with Sum at Least K: Maintained a monotonic deque to track prefix sums and their indices. Removed unnecessary prefix sums to ensure the subarray sum satisfies >= k.
 
 <hr>
+
+### Day 18
+
+37. The Skyline Problem: Transformed building edges into "start" and "end" events, differentiated by height signs. Used a multiset to keep track of current building heights, determining visible skyline points.
+
+38. Task Scheduler: Applied a max-heap to prioritize tasks with the highest frequency. Used a cooling period (p) and a temporary list to manage tasks efficiently while respecting gaps.
+
+<hr>
