@@ -160,3 +160,19 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 38. Task Scheduler: Applied a max-heap to prioritize tasks with the highest frequency. Used a cooling period (p) and a temporary list to manage tasks efficiently while respecting gaps.
 
 <hr>
+
+### Day 19
+
+39. Find Median from Data Stream: Maintained two heaps: Used a max-heap for the smaller half and a min-heap for the larger half of the data. Balanced heap sizes to find the median efficiently as the top of one heap (odd size) or average of tops (even size).
+
+40. Kth Largest Element in a Stream: Used a min-heap of size k to keep track of the k largest elements. The top of the heap represents the kth largest element after each insertion.
+
+<hr> 
+
+### Day 20
+
+41. Merge Sorted Array: Merged two sorted arrays in-place by filling from the end to avoid overwriting elements. Ensured both arrays are fully traversed, handling leftover elements effectively.
+
+42. Merge Two 2D Arrays by Summing Values: Merged two 2D arrays based on the first element, summing values when keys matched. Used a two-pointer approach for efficient traversal and merging.
+
+<hr>
