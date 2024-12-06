@@ -176,3 +176,13 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 42. Merge Two 2D Arrays by Summing Values: Merged two 2D arrays based on the first element, summing values when keys matched. Used a two-pointer approach for efficient traversal and merging.
 
 <hr>
+
+### Day 21
+
+43. Sort Array By Parity: Iterated through the array and moved even numbers to the front using a two-pointer technique. Simple and efficient with in-place swapping for even and odd numbers.
+
+44. Sort Array By Parity II: Placed even numbers at even indices and odd numbers at odd indices using two pointers. Swapped numbers using a XOR-based trick for in-place operations.
+
+45. Rearrange Array Elements by Sign: Arranged positive and negative numbers alternately by filling positions based on their indices. Maintained order of appearance for both positive and negative numbers.
+
+<hr>
