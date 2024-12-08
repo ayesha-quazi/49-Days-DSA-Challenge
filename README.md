@@ -186,3 +186,14 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 45. Rearrange Array Elements by Sign: Arranged positive and negative numbers alternately by filling positions based on their indices. Maintained order of appearance for both positive and negative numbers.
 
 <hr>
+
+### Day 22
+
+46. Find First and Last Position of Element in Sorted Array: Used two custom binary search functions to locate the first and last positions of the target. The approach ensures logarithmic time complexity for efficient searching.
+
+47. Special Array With X Elements Greater Than or Equal X: Sorted the array and used lower_bound to count elements greater than or equal to a candidate value 
+𝑥 x.
+
+48. Find Smallest Letter Greater Than Target: Implemented binary search to find the smallest letter larger than the target, wrapping around if necessary. Carefully managed indices to handle edge cases like the circular nature of the input.
+
+<hr>
