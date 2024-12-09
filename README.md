@@ -197,3 +197,13 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 48. Find Smallest Letter Greater Than Target: Implemented binary search to find the smallest letter larger than the target, wrapping around if necessary. Carefully managed indices to handle edge cases like the circular nature of the input.
 
 <hr>
+
+### Day 23
+
+49.  Remove Duplicates from Sorted Array: Maintained a slow pointer i for unique elements while iterating with a fast pointer j. Replaced duplicate elements in-place to reduce array size.
+
+50.  Remove Element: Used a loop and iterator to identify and erase occurrences of a specific value in the array. Managed iterator adjustments carefully to avoid skipping elements.
+
+51. Partition Array According to Given Pivot: Divided elements into three groups: less than, equal to, and greater than the pivot. Combined groups sequentially to create the final partitioned array.
+
+<hr>
