@@ -207,3 +207,11 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 51. Partition Array According to Given Pivot: Divided elements into three groups: less than, equal to, and greater than the pivot. Combined groups sequentially to create the final partitioned array.
 
 <hr>
+
+### Day 24
+
+52. Reduce Array Size to The Half:
+
+53. Relative Sort Array:
+
+54. Maximum Ice Cream Bars: 
