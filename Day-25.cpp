@@ -61,3 +61,22 @@ public:
 
 // iii. Minimum Add to Make Parentheses Valid: 
 
+class Solution {
+public:
+    int minAddToMakeValid(string s) {
+        int opening=0;   // Counts unmatched opening parentheses '('
+        int overbalanced_closing=0;   // Counts unmatched closing parentheses ')'
+        for(int i=0; s[i]!='\0'; ++i){
+            if(s[i]=='(') {
+                opening++;   // Increment for each opening '('
+            }
+            else if(opening>0) {
+                opening--;   // Valid closing ')' that balances an unmatched '('
+            }
+            else {
+                overbalanced_closing++;   // A closing ')' without a corresponding '('
+            }
+        }
+        return opening + overbalanced_closing;   // Total unmatched '(' and ')' need to be added
+    }
+};
