@@ -210,8 +210,10 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 
 ### Day 24
 
-52. Reduce Array Size to The Half:
+52. Reduce Array Size to The Half: Count frequencies of elements using a hash map. Use a descending multiset to sort frequencies by magnitude. Remove elements until the array size is halved.
 
-53. Relative Sort Array:
+53. Relative Sort Array: Maintain frequency counts of arr1 in a map. Fill arr1 using arr2’s order for matching elements. Append the remaining elements in ascending order.
 
-54. Maximum Ice Cream Bars: 
+54. Maximum Ice Cream Bars: Sort ice cream costs in ascending order. Iteratively purchase ice creams until the coin budget is exhausted.
+
+<hr>
