@@ -217,3 +217,11 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 54. Maximum Ice Cream Bars: Sort ice cream costs in ascending order. Iteratively purchase ice creams until the coin budget is exhausted.
 
 <hr>
+
+### Day 25
+
+55. Valid Parentheses: Used a stack to match opening and closing brackets ((), {}, []). At the end, if the stack is empty, the string is valid.
+
+56. Maximum Nesting Depth of the Parentheses: Counted the deepest level of nested parentheses by tracking the number of active. Updated the maximum depth whenever a new ( is encountered.
+
+57. Minimum Add to Make Parentheses Valid: Maintained a count of unmatched opening and closing parentheses. Increment opening for ( and decrement it if a valid ) matches an unmatched. 
