@@ -224,4 +224,14 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 
 56. Maximum Nesting Depth of the Parentheses: Counted the deepest level of nested parentheses by tracking the number of active. Updated the maximum depth whenever a new ( is encountered.
 
-57. Minimum Add to Make Parentheses Valid: Maintained a count of unmatched opening and closing parentheses. Increment opening for ( and decrement it if a valid ) matches an unmatched. 
+57. Minimum Add to Make Parentheses Valid: Maintained a count of unmatched opening and closing parentheses. Increment opening for ( and decrement it if a valid ) matches an unmatched.
+
+<hr>
+
+### Day 26
+
+58. Maximum Frequency Stack: Implemented a stack-like data structure that pops the most frequent element. Used a max-heap (priority_queue) to manage elements with frequency and position.
+
+59. Min Stack: Is a stack that supports retrieving the minimum element in constant time. Here, I've used an auxiliary array to track the minimum values at each level.
+
+<hr>
