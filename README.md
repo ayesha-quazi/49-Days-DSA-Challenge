@@ -235,3 +235,9 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 59. Min Stack: Is a stack that supports retrieving the minimum element in constant time. Here, I've used an auxiliary array to track the minimum values at each level.
 
 <hr>
+
+### Day 27
+
+60. Design a Stack With Increment Operation: A stack implemented with an additional increment operation. Tracked incremental additions to stack elements efficiently using an auxiliary array.
+
+<hr>
