@@ -1,11 +1,11 @@
-// i. 
+// i. Simplify Path
 
 
 
 
 // ***************************************
 
-// ii. 
+// ii. Merge Intervals
 
 
 
