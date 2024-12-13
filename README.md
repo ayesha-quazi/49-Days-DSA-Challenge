@@ -241,3 +241,9 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 60. Design a Stack With Increment Operation: A stack implemented with an additional increment operation. Tracked incremental additions to stack elements efficiently using an auxiliary array.
 
 <hr>
+
+### Day 28
+
+61. Simplify Path: Used a stack to handle hierarchical navigation (.. and .) efficiently. String processing with delimiters is key for path simplification.
+
+62. Merge Intervals: Sorted intervals by start time simplifies merging overlaps. Used condition-based updates to merge or add new intervals.
