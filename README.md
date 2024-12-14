@@ -247,3 +247,13 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 61. Simplify Path: Used a stack to handle hierarchical navigation (.. and .) efficiently. String processing with delimiters is key for path simplification.
 
 62. Merge Intervals: Sorted intervals by start time simplifies merging overlaps. Used condition-based updates to merge or add new intervals.
+
+<hr>
+
+### Day 29
+
+63. Asteroid Collision: Used a stack to simulate real-time decision-making for colliding asteroids. Handled cases of destruction, survival, or mutual annihilation with conditions.
+
+64. Evaluate Reverse Polish Notation: Stacked simplified evaluating postfix expressions by processing operators after operands. Efficiently handled the operations and also used a helper function and integer parsing. 
+
+<hr>
