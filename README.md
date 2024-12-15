@@ -257,3 +257,11 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 64. Evaluate Reverse Polish Notation: Stacked simplified evaluating postfix expressions by processing operators after operands. Efficiently handled the operations and also used a helper function and integer parsing. 
 
 <hr>
+
+### Day 30
+
+65. Next Greater Element I: Used a stack to efficiently find the next greater element for every item in an array. Then I've stored the results in a map for quick access and handled missing elements gracefully.
+
+66. Final Prices With a Special Discount in a Shop: Here I've used a stack to find the nearest smaller price for discounts. Maintained indices in the stack for easy updates to the result array.
+
+<hr>
