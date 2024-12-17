@@ -275,3 +275,9 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 69. Remove Duplicate Letters: Used a stack to maintain the lexicographically smallest result while ensuring no duplicate letters. Tracked the last occurrence of characters and ensure their order is preserved when popping the stack.
 
 <hr>
+
+70. Maximum Score of a Good Subarray: Expanded the subarray by moving left or right based on which boundary has a higher value. Tracked the minimum value in the subarray to calculate the score efficiently.
+
+71. Minimum Number of Increments on Subarrays to Form a Target Array: Calculated the difference between consecutive elements to determine required increments. Added the differences where the current value is greater than the previous one.
+
+<hr>
