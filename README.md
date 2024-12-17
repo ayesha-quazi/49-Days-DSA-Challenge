@@ -265,3 +265,13 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 66. Final Prices With a Special Discount in a Shop: Here I've used a stack to find the nearest smaller price for discounts. Maintained indices in the stack for easy updates to the result array.
 
 <hr>
+
+### Day 31
+
+67. Shortest Unsorted Continuous Subarray: Identified the smallest segment of the array that, when sorted, makes the entire array sorted. Then used pointers to expand the unsorted range by checking boundary conditions.
+
+68. The Number of Weak Characters in the Game: Sorted characters by attack in ascending order, and by defense in descending order for ties. Traversed from the back to track the maximum defense and count weaker characters.
+
+69. Remove Duplicate Letters: Used a stack to maintain the lexicographically smallest result while ensuring no duplicate letters. Tracked the last occurrence of characters and ensure their order is preserved when popping the stack.
+
+<hr>
