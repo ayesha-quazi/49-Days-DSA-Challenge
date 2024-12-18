@@ -276,8 +276,18 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 
 <hr>
 
+### Day 32
+
 70. Maximum Score of a Good Subarray: Expanded the subarray by moving left or right based on which boundary has a higher value. Tracked the minimum value in the subarray to calculate the score efficiently.
 
 71. Minimum Number of Increments on Subarrays to Form a Target Array: Calculated the difference between consecutive elements to determine required increments. Added the differences where the current value is greater than the previous one.
+
+<hr>
+
+### Day 33
+
+72. Count Submatrices With All Ones: Build a histogram of consecutive 1s for each column to simplify counting. Here I've used nested loops to calculate the total number of submatrices by tracking the minimum height across columns.
+
+73. Smallest Subsequence of Distinct Characters: Used a stack to build the result string while maintaining lexicographical order. Tracked the last occurrence of characters and avoid duplicates with a seen array.
 
 <hr>
