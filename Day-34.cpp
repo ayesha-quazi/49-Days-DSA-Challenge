@@ -1,6 +1,27 @@
 // i. First non-repeating in a stream
 
+#include <string>
+#include <unordered_map>
+#include <queue>
+using namespace std;
 
+class Solution {
+public:
+    string FirstNonRepeating(string &s) {
+        unordered_map<char, int> mm;
+        queue<char> q;
+        string ans = "";
+        
+        for (int i = 0; i < s.length(); i++) {  // Use 's' instead of 'A'
+            mm[s[i]]++;
+            if (mm[s[i]] == 1) q.push(s[i]);
+            while (!q.empty() && mm[q.front()] > 1) q.pop();
+            if (q.empty()) ans += '#';
+            else ans += q.front();
+        }
+        return ans;
+    }
+};
 
 
 
