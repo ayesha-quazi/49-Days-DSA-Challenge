@@ -291,3 +291,11 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 73. Smallest Subsequence of Distinct Characters: Used a stack to build the result string while maintaining lexicographical order. Tracked the last occurrence of characters and avoid duplicates with a seen array.
 
 <hr>
+
+### Day 34
+
+74. First non-repeating in a stream: Here I've used a queue to track characters as they appear, and a map to store their frequencies. Efficiently find the first non-repeating character by popping elements with frequency >1.
+
+75. Reverse First K elements of Queue: Then here tried using a stack to reverse the first k elements of a queue. Append the remaining elements back to the queue to maintain the order.
+
+<hr>
