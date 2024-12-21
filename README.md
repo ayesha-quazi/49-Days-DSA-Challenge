@@ -300,4 +300,12 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 
 <hr>
 
+### Day 35
+
 76. Aggressive Cows: The solution uses binary search to find the largest minimum distance for placing cows in stalls. A helper function checks feasibility by placing cows greedily while maintaining the minimum distance constraint.
+
+<hr>
+
+### Day 36
+
+77. Permutations: Used backtracking to generate all possible arrangements of a given set of numbers. Maintained a temporary array for the current permutation and a set to avoid duplicate usage of elements. 
