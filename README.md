@@ -299,3 +299,5 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 75. Reverse First K elements of Queue: Then here tried using a stack to reverse the first k elements of a queue. Append the remaining elements back to the queue to maintain the order.
 
 <hr>
+
+76. Aggressive Cows: The solution uses binary search to find the largest minimum distance for placing cows in stalls. A helper function checks feasibility by placing cows greedily while maintaining the minimum distance constraint.
