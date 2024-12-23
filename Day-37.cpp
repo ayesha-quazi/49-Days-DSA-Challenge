@@ -1,6 +1,5 @@
 //  Combination Sum II
 
-
 class Solution {
 public:
     void solve(vector<int>& candidates, int target, vector<int> curr, vector<vector<int>>& result, int idx) {
@@ -27,5 +26,3 @@ public:
         return result;
     }
 };
-
-
