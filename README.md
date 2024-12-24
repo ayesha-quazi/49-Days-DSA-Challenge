@@ -308,4 +308,18 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 
 ### Day 36
 
-77. Permutations: Used backtracking to generate all possible arrangements of a given set of numbers. Maintained a temporary array for the current permutation and a set to avoid duplicate usage of elements. 
+77. Permutations: Used backtracking to generate all possible arrangements of a given set of numbers. Maintained a temporary array for the current permutation and a set to avoid duplicate usage of elements.
+
+<hr>
+
+### Day 37
+
+78.  Combination Sum II: Here I've used backtracking to find combinations that sum up to a target, avoiding duplicate results by skipping consecutive identical elements in the sorted input array. Each candidate can be used only once in a combination, and the recursion ensures all possibilities are explored without redundancy.
+
+<hr>
+
+### Day 38
+
+79. Subsets: Used backtracking to generate all possible subsets of a given array by deciding for each element whether to include it or not. Maintained a temporary list to store the current subset and explore all combinations recursively.
+
+<hr>
