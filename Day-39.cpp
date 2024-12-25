@@ -1,6 +1,5 @@
 // N-Queens
 
-
 class Solution {
 public:
     vector<vector<string>> result;
