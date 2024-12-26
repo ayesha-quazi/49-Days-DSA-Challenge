@@ -323,3 +323,9 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 79. Subsets: Used backtracking to generate all possible subsets of a given array by deciding for each element whether to include it or not. Maintained a temporary list to store the current subset and explore all combinations recursively.
 
 <hr>
+
+### Day 39
+
+80. N-Queens: Used backtracking to place queens row by row, ensuring they don't attack each other. Then checked if a queen placement is valid by looking at the column, left diagonal, and right diagonal above the current row. After which I tried restoring the board state after exploring a solution to try other possibilities.
+
+<hr>
