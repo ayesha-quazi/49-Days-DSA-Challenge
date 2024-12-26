@@ -329,3 +329,10 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 80. N-Queens: Used backtracking to place queens row by row, ensuring they don't attack each other. Then checked if a queen placement is valid by looking at the column, left diagonal, and right diagonal above the current row. After which I tried restoring the board state after exploring a solution to try other possibilities.
 
 <hr>
+
+### Day 40
+
+81. All Nodes Distance K in Binary Tree: Here I've used a preorder traversal to map each node to its parent for easy traversal in all directions (left, right, and parent).
+Also used a BFS (Breadth-First Search) approach starting from the target node to find all nodes at a distance k, ensuring nodes are not revisited using a visited set.
+
+<hr>
