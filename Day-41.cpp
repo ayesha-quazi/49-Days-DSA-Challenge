@@ -1,6 +1,5 @@
 // Binary Tree Right Side View
 
-
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
