@@ -336,3 +336,9 @@ Evict the least recently used (tail of the list) if capacity is exceeded. T.C: O
 Also used a BFS (Breadth-First Search) approach starting from the target node to find all nodes at a distance k, ensuring nodes are not revisited using a visited set.
 
 <hr>
+
+### Day 41
+
+82. Binary Tree Right Side View: This solution uses a modified pre-order traversal (right-first) to efficiently capture the first node visible at each level. The approach simulates the perspective of viewing the tree from the right side, ensuring an accurate representation. 
+
+<hr>
