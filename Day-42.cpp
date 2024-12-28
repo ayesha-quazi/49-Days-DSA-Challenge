@@ -1,6 +1,5 @@
 // Construct Binary Tree from Preorder and Inorder Traversal
 
-
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
