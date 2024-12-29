@@ -342,3 +342,9 @@ Also used a BFS (Breadth-First Search) approach starting from the target node to
 82. Binary Tree Right Side View: This solution uses a modified pre-order traversal (right-first) to efficiently capture the first node visible at each level. The approach simulates the perspective of viewing the tree from the right side, ensuring an accurate representation. 
 
 <hr>
+
+### Day 42
+
+83. Construct Binary Tree from Preorder and Inorder Traversal: Here I've used the preorder traversal that identifies the root nodes in sequence, while the inorder traversal divides the tree into left and right subtrees. Using recursion, the tree is constructed by systematically partitioning the inorder array and aligning it with the preorder traversal to progress through the nodes.
+
+<hr>
