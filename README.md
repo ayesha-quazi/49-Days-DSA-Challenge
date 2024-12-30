@@ -348,3 +348,9 @@ Also used a BFS (Breadth-First Search) approach starting from the target node to
 83. Construct Binary Tree from Preorder and Inorder Traversal: Here I've used the preorder traversal that identifies the root nodes in sequence, while the inorder traversal divides the tree into left and right subtrees. Using recursion, the tree is constructed by systematically partitioning the inorder array and aligning it with the preorder traversal to progress through the nodes.
 
 <hr>
+
+### Day 43
+
+84. Minimum Distance Between BST Nodes: Here tried performing an **inorder traversal** on a Binary Search Tree (BST) ensures node values are retrieved in ascending order, which simplifies finding the **minimum difference** between any two nodes by comparing consecutive elements in this sequence. This approach efficiently utilizes the BST properties to achieve the result.
+
+<hr>
