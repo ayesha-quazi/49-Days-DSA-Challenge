@@ -360,3 +360,11 @@ Also used a BFS (Breadth-First Search) approach starting from the target node to
 85. Lowest Common Ancestor of a Binary Tree: Here a binary tree is found by recursively traversing the tree. If the current node matches one of the target nodes, it may be the LCA. The algorithm checks both left and right subtrees: if both return valid nodes, the current node is the LCA; otherwise, the non-null result is carried upwards. This approach is simple, recursive, and effectively determines the LCA.
 
 <hr>
+
+### Day 45
+
+86. Lowest Common Ancestor of a Binary Search Tree: Used the BST property to find the LCA. If the root's value lies between the two nodes, it is the LCA. Otherwise, recursively explore the left or right subtree depending on where the target nodes lie relative to the root. This approach leverages BST properties for efficiency.
+
+87. Recover Binary Search Tree: To fix a BST where two nodes are swapped, here performed an in-order traversal to identify misplaced nodes. The first node is detected when a value is larger than the subsequent one, and the second node is marked later. Finally, swap their values to restore the BST. This process ensures minimal traversal while maintaining correctness.
+
+<hr>
