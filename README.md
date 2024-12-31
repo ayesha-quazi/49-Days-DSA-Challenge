@@ -354,3 +354,9 @@ Also used a BFS (Breadth-First Search) approach starting from the target node to
 84. Minimum Distance Between BST Nodes: Here tried performing an **inorder traversal** on a Binary Search Tree (BST) ensures node values are retrieved in ascending order, which simplifies finding the **minimum difference** between any two nodes by comparing consecutive elements in this sequence. This approach efficiently utilizes the BST properties to achieve the result.
 
 <hr>
+
+### Day 44
+
+85. Lowest Common Ancestor of a Binary Tree: Here a binary tree is found by recursively traversing the tree. If the current node matches one of the target nodes, it may be the LCA. The algorithm checks both left and right subtrees: if both return valid nodes, the current node is the LCA; otherwise, the non-null result is carried upwards. This approach is simple, recursive, and effectively determines the LCA.
+
+<hr>
