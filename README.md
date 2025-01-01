@@ -368,3 +368,9 @@ Also used a BFS (Breadth-First Search) approach starting from the target node to
 87. Recover Binary Search Tree: To fix a BST where two nodes are swapped, here performed an in-order traversal to identify misplaced nodes. The first node is detected when a value is larger than the subsequent one, and the second node is marked later. Finally, swap their values to restore the BST. This process ensures minimal traversal while maintaining correctness.
 
 <hr>
+
+### Day 46
+
+88. Vertical Order Traversal of a Binary Tree: Used a map to organize nodes based on their column and row positions during a breadth-first search (BFS). For nodes in the same row and column, use a multiset to maintain sorted order. This structured approach ensures accurate vertical grouping while maintaining the required order for nodes at the same level.
+
+<hr>
