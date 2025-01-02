@@ -374,3 +374,9 @@ Also used a BFS (Breadth-First Search) approach starting from the target node to
 88. Vertical Order Traversal of a Binary Tree: Used a map to organize nodes based on their column and row positions during a breadth-first search (BFS). For nodes in the same row and column, use a multiset to maintain sorted order. This structured approach ensures accurate vertical grouping while maintaining the required order for nodes at the same level.
 
 <hr>
+
+### Day 47
+
+89. Binary Tree Maximum Path Sum: Here I've tried calculating the sum of paths including the current node, left and right subtrees, and individual branches. Then used recursion to explore all paths and maintain a global maximum while returning the best branch contribution for upward paths.
+
+<hr>
