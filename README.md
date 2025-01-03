@@ -380,3 +380,9 @@ Also used a BFS (Breadth-First Search) approach starting from the target node to
 89. Binary Tree Maximum Path Sum: Here I've tried calculating the sum of paths including the current node, left and right subtrees, and individual branches. Then used recursion to explore all paths and maintain a global maximum while returning the best branch contribution for upward paths.
 
 <hr>
+
+### Day 48
+
+90. Partition Equal Subset Sum: The solution checks if an array can be divided into two subsets with equal sums by leveraging dynamic programming. It determines whether a subset with a target sum (half of the total sum) can be formed. The DP array is updated in reverse to ensure each number is considered only once for forming subsets.
+
+<hr>
