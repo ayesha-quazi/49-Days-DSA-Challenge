@@ -4,8 +4,9 @@ Welcome to my 49-Day DSA journey! Over the next 49 days, I’ll be sharing my pr
 
 <hr>
 
-**Challenge Start Date:** 16th November 2024 <br>
-**Language:** C++
+**Challenge Start Date: 16th November 2024** <br>
+**Language: C++** <br>
+**Challenge Ended On: 04th January 2025**
 
 <hr>
 
