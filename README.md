@@ -386,3 +386,11 @@ Also used a BFS (Breadth-First Search) approach starting from the target node to
 90. Partition Equal Subset Sum: The solution checks if an array can be divided into two subsets with equal sums by leveraging dynamic programming. It determines whether a subset with a target sum (half of the total sum) can be formed. The DP array is updated in reverse to ensure each number is considered only once for forming subsets.
 
 <hr>
+
+### Day 49
+
+91: Minimum Path Sum: This code focuses on finding the path from the top-left to the bottom-right of a grid with the smallest sum of values along the way. Used recursion with memoization (DP), we efficiently calculate the minimum path by exploring both possible moves—down and right—and storing results to avoid redundant calculations.
+
+<hr>
+
+
